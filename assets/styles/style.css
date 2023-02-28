@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #222226;
+}
+
+.header {
+    height: 150px;
+    background-color: #333336;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+}
+
+.logo h1 {
+    font-family: 'VT323', monospace;
+    color: #ededed;
+    font-size: 130px;
+    text-shadow: white 0 0 5px;
+}
+
+.main {
+    flex: 1 1 auto;
+
+}
+
+.footer {
+    height: 150px;
+    background-color: #333336;
+}
