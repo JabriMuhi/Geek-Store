@@ -4,6 +4,7 @@ html, body {
 
 * {
     margin: 0;
+    padding: 0;
 }
 
 .wrapper {
@@ -31,6 +32,10 @@ html, body {
     color: #ededed;
     font-size: 130px;
     text-shadow: white 0 0 5px;
+}
+
+.logo a {
+    text-decoration: none;
 }
 
 hr {
@@ -77,4 +82,18 @@ hr {
 .footer {
     height: 150px;
     background-color: #333336;
+    text-align: center;
+}
+
+.footer-p {
+    margin-top: 30px;
+    color: #ededed;
+    font-family: 'VT323', monospace;
+    font-size: 35px;
+}
+
+#page-load {
+    font-family: 'VT323', monospace;
+    color: #ededed;
+    font-size: 25px;
 }
