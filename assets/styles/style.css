@@ -98,6 +98,7 @@ hr {
     margin-bottom: 10px;
     border: solid 4px #29bff2;
     outline: none;
+    box-shadow: inset 0 0 5px #29bff2;
 }
 
 .place-for-search {
@@ -114,7 +115,24 @@ hr {
 
 .main {
     flex: 1 1 auto;
+}
 
+.section {
+    background-color: #333336;
+    width: 1200px;
+    height: 300px;
+    margin: 15px auto 15px auto;
+    border-radius: 3px;
+    border: solid #29bff2 5px;
+    box-shadow: inset 0 0 5px #29bff2;
+
+}
+
+.current-position {
+    height: 290px;
+    margin: 5px auto 5px 5px;
+    float: left;
+    border-radius: 3px;
 }
 
 .footer {
