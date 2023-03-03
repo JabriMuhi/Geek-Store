@@ -5,6 +5,7 @@
     <title>Geek-Store</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/pre-loader.css">
     <script defer src="assets/scripts/page-load.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,7 +50,22 @@
     <hr>
 
     <main class="main">
-
+        <div class="page-content">
+            <div class="rm-api-class">
+                <h1 class="rm-api-header">Rick & Morty API</h1>
+                <input type="input" id="rm-name" placeholder="Character name"/>
+                <button id="btn">Search</button>
+                <div class="rick-and-morty" style="position: relative">
+                    <div id="preloader"></div>
+                    <div id="character-image"></div>
+                    <div id="character-name"></div>
+                    <div id="character-status-type"></div>
+                    <div id="character-gender"></div>
+                    <div id="character-origin"></div>
+                    <div id="character-first-episode"></div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer class="footer">
@@ -58,5 +74,6 @@
         <p id="page-load"></p>
     </footer>
 </div>
+<script src="assets/scripts/rm-api.js"></script>
 </body>
 </html>

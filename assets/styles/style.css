@@ -101,19 +101,13 @@ hr {
     box-shadow: inset 0 0 5px #29bff2;
 }
 
-.place-for-search {
+.place-for-search, .button-for-search {
     font-family: 'VT323', monospace;
     font-size: 20px;
     color: #ededed;
 }
 
-.button-for-search {
-    font-size: 20px;
-    font-family: 'VT323', monospace;
-    color: #ededed;
-}
-
-.main, .sub-main {
+.main {
     flex: 1 1 auto;
 }
 
@@ -125,18 +119,190 @@ hr {
     border-radius: 3px;
     border: solid #29bff2 5px;
     box-shadow: inset 0 0 5px #29bff2;
-
 }
 
 .current-position {
     height: 290px;
-    margin: 5px auto 5px 5px;
+    margin: 5px 15px 5px 5px;
     float: left;
     border-radius: 3px;
 }
 
-.sub-main {
+.about-pos-block {
+    margin: 0 auto;
+    width: 700px;
+}
+
+.about-pos-head {
+    margin-top: 5px;
+    font-family: 'VT323', monospace;
+    color: #ededed;
+    text-align: center;
+    font-size: 40px;
+}
+
+.short-about-pos {
+    text-indent: 20px;
+    margin-top: 20px;
+    font-family: 'VT323', monospace;
+    color: #ededed;
+    font-size: 25px;
+}
+
+.price {
+    float: right;
+    width: 250px;
+    height: 290px;
+    margin: 0 0 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.white-space-price {
+    flex: 1 1 auto;
+}
+
+.add-icon {
+    width: 50%;
+    align-self: center;
+    margin-bottom: 5px;
+}
+
+.digit-price {
+    align-self: center;
+    margin-top: 20px;
+    font-family: 'VT323', monospace;
+    color: #ededed;
+    font-size: 40px;
+}
+
+.position-table th {
+    font-weight: normal;
+}
+
+.main {
     background-image: url("../images/website-background.svg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.todo-generator, .rm-api-class, .about-content, .contacts-content {
+    text-align: center;
+}
+
+.contacts {
+    font-family: 'VT323', monospace;
+    color: #ededed;
+    font-size: 35px;
+}
+
+.phone-number {
+    text-decoration: none;
+    color: #f0f3f6;
+}
+
+.phone-number:hover {
+    color: #29bff2;
+    text-shadow: #29bff2 0 0 5px;
+}
+
+.contacts-map {
+    margin: 0 auto;
+    width: 80%;
+    border: solid 4px #29bff2;
+    box-shadow: inset 0 0 5px #29bff2;
+    border-radius: 3px;
+}
+
+
+
+.todo-header, .rm-api-header, .about-header {
+    font-family: 'VT323', monospace;
+    color: #ededed;
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.about-content-p {
+    font-family: 'VT323', monospace;
+    font-size: 35px;
+    color: #ededed;
+    margin-top: 10px;
+}
+
+
+#todo, #add-btn, #del-btn, #rm-name, #btn {
+    background-color: #333336;
+    border: solid 4px #29bff2;
+    outline: none;
+    box-shadow: inset 0 0 5px #29bff2;
+    color: #f0f3f6;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#del-btn {
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+#todo {
+    font-family: 'VT323', monospace;
+    font-size: 23px;
+    color: #ededed;
+}
+
+#btn, #rm-name {
+    font-family: 'VT323', monospace;
+    font-size: 23px;
+}
+
+#list li {
+    font-family: 'VT323', monospace;
+    color: #ededed;
+    font-size: 30px
+}
+
+#character-image img {
+    margin-top: 10px;
+    width: 28%;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#character-name {
+    font-family: 'VT323', monospace;
+    color: #ededed;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+#character-status-type, #character-origin, #character-gender, #character-first-episode {
+    font-family: 'VT323', monospace;
+    color: #ededed;
+    font-size: 32px;
+}
+
+#character-first-episode a{
+    font-family: 'VT323', monospace;
+    color: #ededed;
+    text-decoration: none;
+}
+
+#character-first-episode a:hover {
+    font-family: 'VT323', monospace;
+    color: #29bff2;
+    text-shadow: #29bff2 0 0 5px;
 }
 
 .footer {
