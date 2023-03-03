@@ -323,3 +323,146 @@ hr {
     color: #ededed;
     font-size: 25px;
 }
+
+
+/*-----------Adaptive-----------*/
+
+@media only screen
+and (min-device-width : 200px)
+and (max-device-width : 1250px){
+    .search-form {
+        display: none;
+    }
+    .section {
+        width: 98.5%;
+    }
+    .footer {
+        display: none;
+    }
+
+    #character-image img
+    {
+        width: 70%;
+    }
+}
+
+@media only screen
+and (min-device-width : 200px)
+and (max-device-width : 1000px) {
+    .section {
+        height: 400px;
+    }
+
+    .current-position {
+        width: 250px;
+        margin-top: 50px;
+    }
+
+    .add-icon {
+        width: 80px;
+    }
+
+    .price {
+        width: 100px;
+    }
+}
+
+@media only screen
+and (min-device-width : 200px)
+and (max-device-width : 725px) {
+
+    .header {
+        height: 250px;
+    }
+
+    .section {
+        height: 300px;
+        display: flex;
+        width: 97%;
+    }
+
+    .navigate ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .short-about-pos {
+        display: none;
+    }
+
+    .current-position {
+        margin: 0;
+        width: 500px;
+    }
+
+    .item-img img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .price {
+        float: right;
+    }
+
+
+    .navigate li {
+        font-size: 50px;
+    }
+}
+
+@media only screen
+and (min-device-width : 200px)
+and (max-device-width : 561px) {
+    .description {
+        display: none;
+    }
+}
+
+@media only screen
+and (min-device-width : 200px)
+and (max-device-width : 451px) {
+    .logo img {
+        display: none;
+    }
+
+    .logo h1 {
+        text-align: center;
+    }
+}
+
+@media only screen
+and (min-device-width : 200px)
+and (max-device-width : 412px) {
+
+    .item-img img {
+        width: 280px;
+        height: 280px;
+    }
+
+}
+
+@media only screen
+and (min-device-width : 50px)
+and (max-device-width : 392px) {
+    .main {
+        display: none;
+    }
+
+    .navigate {
+        display: none;
+    }
+
+    .for-small-devices {
+        display: block;
+    }
+}
+
+
+
+.for-small-devices {
+    display: none;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'VT323', monospace;
+    color: #ededed;
+}
